@@ -35,15 +35,24 @@ export default function About() {
               combine web development with AI capabilities.
             </p>
           </div>
-
+         
           <div className="space-y-6">
-            <div className="bg-card/80 backdrop-blur-sm border border-border rounded-xl p-6 hover:border-primary/50 transition-all duration-500 group hover:-translate-y-1 hover:shadow-xl hover:shadow-primary/15 relative overflow-hidden">
+            <a
+              href="https://www.irjmets.com/paperdetail.php?paperId=5ab9f6aebc9b093c61ae79385b8767b6"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-card/80 backdrop-blur-sm border border-border rounded-xl p-6 hover:border-primary/50 transition-all duration-500 group hover:-translate-y-1 hover:shadow-xl hover:shadow-primary/15 relative overflow-hidden"
+            >
               <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 animate-shimmer pointer-events-none" />
 
               <div className="relative">
                 <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
                   <FileText size={20} className="text-primary" />
                   Publication
+                  <ExternalLink
+                    size={16}
+                    className="text-muted-foreground group-hover:text-primary transition-colors ml-auto"
+                  />
                 </h3>
                 <p className="text-primary font-medium mb-2 group-hover:text-accent transition-colors">
                   NeuroSense: Enhanced EEG Motor Imagery Classification
@@ -53,8 +62,11 @@ export default function About() {
                   Authored a research paper on a BCI platform achieving high classification accuracy using SVM and GANs
                   for data augmentation. Developed a real-time visualization interface using Streamlit.
                 </p>
+                <span className="inline-flex items-center gap-1 text-xs text-primary mt-3 group-hover:underline">
+                  View Paper <ExternalLink size={12} />
+                </span>
               </div>
-            </div>
+            </a>
 
             <div className="grid grid-cols-3 gap-4 text-center">
               {[
