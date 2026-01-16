@@ -1,6 +1,6 @@
 "use client"
 
-import { FileText, Star } from "lucide-react"
+import { FileText, Star, ExternalLink } from "lucide-react"
 
 export default function About() {
   return (
@@ -20,8 +20,7 @@ export default function About() {
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
               I'm a passionate <span className="text-primary font-medium">Software Engineer</span> and AI & Data Science
               student at Dr. D.Y. Patil College of Engineering and Innovation, Varale. With hands-on experience from
-              internships at <span className="text-primary font-medium">Elite Software</span> and{" "}
-              <span className="font-medium text-slate-500">MRND Lab</span>, I specialize in building responsive web
+              internships at <span className="text-primary font-medium">Elite Software</span> and <span className="font-medium text-slate-500">MRND Lab</span>, I specialize in building responsive web
               applications and intelligent solutions.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
@@ -41,7 +40,7 @@ export default function About() {
               href="https://www.irjmets.com/paperdetail.php?paperId=5ab9f6aebc9b093c61ae79385b8767b6"
               target="_blank"
               rel="noopener noreferrer"
-              className="block bg-card/80 backdrop-blur-sm border border-border rounded-xl p-6 hover:border-primary/50 transition-all duration-500 group hover:-translate-y-1 hover:shadow-xl hover:shadow-primary/15 relative overflow-hidden"
+              className="block bg-card/80 backdrop-blur-sm border border-border rounded-xl p-6 hover:border-primary/50 transition-all duration-500 group hover:-translate-y-1 hover:shadow-xl hover:shadow-primary/10 relative overflow-hidden"
             >
               <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 animate-shimmer pointer-events-none" />
 
