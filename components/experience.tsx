@@ -7,7 +7,7 @@ const experiences = [
     title: "Web Developer Intern",
     company: "Elite Software",
     location: "Pune",
-    period: "May 2024 - July 2024",
+    period: "Dec 2024 - Feb 2025",
     description: [
       "Developed responsive web applications using HTML, CSS, and JavaScript",
       "Collaborated with senior developers on client projects",
@@ -19,10 +19,10 @@ const experiences = [
     title: "Web Developer Intern",
     company: "MRND Lab",
     location: "Akurdi",
-    period: "Jan 2024 - Mar 2024",
+    period: "July 2022 - Aug 2022",
     description: [
       "Built and maintained web interfaces for lab projects",
-      "Worked with WordPress for content management solutions",
+      "Worked with frontend technologies for web page design",
       "Assisted in frontend development using modern frameworks",
       "Participated in code reviews and team meetings",
     ],
