@@ -5,13 +5,12 @@ import { Briefcase, Calendar, MapPin, Rocket } from "lucide-react"
 const experiences = [
   {
     title: "Web Developer Intern",
-    company: "Elite Software",
+    company: "Elite Softwares",
     location: "Pune",
     period: "Dec 2024 - Feb 2025",
     description: [
-      "Developed responsive web applications using HTML, CSS, and JavaScript",
-      "Collaborated with senior developers on client projects",
-      "Implemented UI/UX improvements based on user feedback",
+      "Created web pages with MERN Stack",
+      "Built full-stack web applications using modern JavaScript frameworks",
       "Gained hands-on experience with modern web development practices",
     ],
   },
@@ -21,7 +20,7 @@ const experiences = [
     location: "Akurdi",
     period: "July 2022 - Aug 2022",
     description: [
-      "Built and maintained web interfaces for lab projects",
+      "Developed responsive web applications using HTML, CSS, and JavaScript",
       "Worked with frontend technologies for web page design",
       "Assisted in frontend development using modern frameworks",
       "Participated in code reviews and team meetings",
