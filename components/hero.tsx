@@ -45,13 +45,6 @@ export default function Hero() {
                 <Linkedin size={20} />
                 <span>LinkedIn</span>
               </a>
-              <a
-                href="mailto:gaikwadhanshree2112004@gmail.com"
-                className="flex items-center gap-2 border border-primary text-primary hover:bg-primary hover:text-primary-foreground px-6 py-3 rounded-lg transition-all duration-300 hover:-translate-y-1"
-              >
-                <Mail size={20} />
-                <span>Contact</span>
-              </a>
             </div>
           </div>
 
